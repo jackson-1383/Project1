@@ -1,0 +1,56 @@
+.addition-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  margin: 40px auto;
+  max-width: 1200px;
+}
+
+.addition-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
+
+.addition-image {
+  flex: 1 1 50%;
+  min-width: 300px;
+}
+
+.addition-content {
+  flex: 1 1 50%;
+  background-color: #8A1F2D; /* Dark red */
+  color: white;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.addition-content h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.addition-content p {
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 15px 25px;
+  border: 2px solid white;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: white;
+  color: #8A1F2D;
+}
